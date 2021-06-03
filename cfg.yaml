@@ -1,0 +1,28 @@
+# para
+#pickle_dir: 'X:\cow\vedio\15组2021.5\DVR_Examiner_Export_2021-05-18 142552_Job_0002\2021-05-12\Native Video Files (MP4)\pickles'
+pickle_dir: '/home/liusheng/data/NFS120/cow/vedio/15组2021.5/DVR_Examiner_Export_2021-05-18 142552_Job_0002/2021-05-12/Native Video Files (MP4)/pickles'
+norm: True
+
+# KMeans , AffinityPropagation （谱聚类）, AgglomerativeClustering (合并)， DBSCAN （密度）
+# Affinity_Propagation 自定义
+#cluster_funcs: ['AffinityPropagation', 'KMeans']
+cluster_funcs: ['KMeans']
+
+# kmeans
+KMeans_k: [150, 200]
+
+# AgglomerativeClustering
+AgglomerativeClustering_k: [50, 200]
+AgglomerativeClustering_type: ['ward', 'complete', 'average', 'single']
+
+# DBSCAN
+DBSCAN_eps: []   # 半径范围
+DBSCAN_sam: []   # minPoints
+
+# save_dir
+#base_dir: 'X:\cow\vedio\15组2021.5\DVR_Examiner_Export_2021-05-18 142552_Job_0002\2021-05-12\Native Video Files (MP4)'
+base_dir: '/home/liusheng/data/NFS120/cow/vedio/15组2021.5/DVR_Examiner_Export_2021-05-18 142552_Job_0002/2021-05-12/Native Video Files (MP4)'
+result_csv: 'result.csv'
+detail_txt: 'detail.txt'
+
+
