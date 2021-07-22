@@ -1,2 +1,2 @@
 # clusters
-clusters calculated by gput
+clusters calculated by gpu
